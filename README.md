@@ -1,42 +1,42 @@
-# Rental-Price-Predictor
+# Rental Price Predictor
 
-A simple Python project that predicts apartment rent using rooms, bathrooms, and area data.
+This is one of my beginner Python projects. I made it to practice lists, dictionaries, functions, and simple logic by predicting apartment rent from rooms, bathrooms, and area.
 
-## Overview
-This project is a beginner-friendly rental price prediction program built in Python.  
-It stores sample rental property data and uses a custom formula to estimate rent for a new property.
+## Why I made this
+I wanted to build a small project that is easy to understand but still feels useful. Instead of making only basic print programs, I tried creating something that takes real-looking rental data and gives a rent prediction.
 
-## Features
-- Stores rental property data in Python dictionaries
-- Displays sample rental listings
-- Predicts rent using rooms, bathrooms, and area
-- Built using pure Python without external libraries
+## What this project does
+- Stores sample apartment data
+- Prints rental listings in a clean format
+- Predicts rent for a new apartment
+- Uses a simple formula based on rooms, bathrooms, and area
 
-## Technologies Used
+## Formula used
+The program uses this formula:
+
+`Rent = (rooms * 5000) + (bathrooms * 3000) + (area * 20)`
+
+For example:
+- Rooms: 2
+- Bathrooms: 1
+- Area: 850 sqft
+
+Predicted rent:
+`₹30,000/month`
+
+## Tech used
 - Python 3
 - VS Code
 - GitHub
 
-## Project Structure
+## Project files
 ```bash
 Rental-Price-Predictor/
-│── rental_predictor.py
-│── README.md
+├── rental_predictor.py
+└── README.md
 ```
 
-## How It Works
-The program uses this formula to estimate rent:
-
-`Rent = (rooms * 5000) + (bathrooms * 3000) + (area * 20)`
-
-Example:
-- Rooms = 2
-- Bathrooms = 1
-- Area = 850 sqft
-
-Predicted Rent = ₹30,000/month
-
-## Sample Code
+## Python code
 ```python
 rentals = [
     {"rooms": 1, "bathrooms": 1, "area": 500, "price": 15000},
@@ -55,7 +55,7 @@ new_rental = predict_rent(2, 1, 850)
 print(f"\nPredicted: 2BHK, 1bath, 850sqft = ₹{new_rental:,}/month")
 ```
 
-## Sample Output
+## Sample output
 ```text
 Rental Data:
 1BHK, 1bath, 500sqft: ₹15,000
@@ -65,22 +65,34 @@ Rental Data:
 Predicted: 2BHK, 1bath, 850sqft = ₹30,000/month
 ```
 
-## How to Run
-1. Install Python 3
-2. Download or clone this repository
-3. Open the project folder in VS Code
-4. Run:
+## How to run it
+1. Make sure Python 3 is installed.
+2. Download or clone this repository.
+3. Open the folder in VS Code or terminal.
+4. Run this command:
 
 ```bash
 python rental_predictor.py
 ```
 
-## Future Improvements
-- Add more rental data
-- Improve prediction formula
-- Build a graphical interface
-- Convert it into a web-based rent predictor
+## What I learned
+While making this project, I practiced:
+- Python dictionaries and lists
+- Functions
+- Looping through data
+- Formatting output
+- Writing a small project and uploading it to GitHub
+
+## Future improvements
+- Add more apartment data
+- Take user input instead of fixed values
+- Improve the prediction logic
+- Turn it into a small web app later
 
 ## Author
-**Danish Dhammani**  
-BCA Student | Python Learner | Aspiring Software Developer
+Danish Dhammani  
+BCA 2nd Year Student  
+Learning Python and building beginner projects
+
+
+ 
