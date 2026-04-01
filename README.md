@@ -91,7 +91,7 @@ While making this project, I practiced:
 
 ## Author
 Danish Dhammani  
-BCA 2nd Year Student  
+BCA Student  
 Learning Python and building beginner projects
 
 
