@@ -62,7 +62,7 @@ Rental Data:
 2BHK, 1bath, 800sqft: ₹25,000
 3BHK, 2bath, 1200sqft: ₹40,000
 
-Predicted: 2BHK, 1bath, 850sqft = ₹30,000/month
+Predicted: 2BHK, 1bath, 850sqft = ₹25,000/month
 ```
 
 ## How to run it
